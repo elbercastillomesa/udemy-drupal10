@@ -1,3 +1,68 @@
+# Drupal 8/9/10 Module Development Course
+
+## Course Description
+
+This course will cover all the basics to understand how Drupal's tools work and how to use them effectively.
+
+This course is designed for people with basic knowledge of Drupal 8/9/10 who want to start developing their own modules. By the end of the course, you will have the foundational knowledge needed to search for solutions to specific problems online, understand the answers, and apply them effectively.
+
+The course is built on Drupal's core principles to ensure compatibility with:
+- **Drupal 8** (version 8.7.7 and higher)
+- **Drupal 9** (all versions)
+- **Drupal 10**
+
+We will explore how to customize Drupal's appearance in the **theming section** and adapt it to our needs. While Drupal is very flexible, its complexity can sometimes be challenging.
+
+> **Note**: This course does not teach PHP programming. Prior knowledge of PHP is required.
+
+### Why Take This Course?
+
+- It's one of the most comprehensive Drupal development courses available on Udemy.
+- Access to all course code and databases during and after the course.
+- Taught by a Drupal backend developer with over a decade of experience (since Drupal 6).
+
+### Topics Covered
+
+1. Creating controllers to build custom pages.
+2. Developing custom services and utilizing existing ones.
+3. Creating custom templates.
+4. Following best practices for service injection.
+5. Using Drupal's configuration system.
+6. Building custom forms.
+7. Altering existing forms.
+8. Writing database queries.
+9. Working with entities and commonly used functions.
+10. Developing custom blocks with additional configurations.
+11. Creating menu items.
+12. Understanding the permission and access system.
+
+## Who Is This Course For?
+
+- Beginner developers.
+- Developers looking to explore Drupal.
+- Drupal site builders who want to start developing.
+- Web designers and themers.
+
+## Requirements
+
+### Mandatory:
+- Basic knowledge of **PHP**.
+- Basic to intermediate knowledge of **Drupal 8/9/10**.
+- Basic understanding of **HTML**.
+
+### Recommended:
+- Familiarity with **Object-Oriented Programming (OOP)** in PHP.
+- Experience using an **IDE** (e.g., NetBeans, PhpStorm).
+- Knowledge of **Twig**.
+
+### About the Instructor
+
+**Borja Vicente Cespedes**  
+*Drupal Architect and Developer*
+- Udemy page: https://nisum.udemy.com/user/borja-vicente-2/
+
+---
+
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/shaal/ddev-gitpod)
 
 # ddev + Gitpod
@@ -16,7 +81,7 @@ Watch a 5 minutes walkthrough video:
 
 ## Try it out:
 1. Click on the following link
-  https://gitpod.io/#https://github.com/elbercastillomesa/ddev-gitpod/tree/ddev-gitpod-base
+  https://gitpod.io/#https://github.com/elbercastillomesa/udemy-drupal10
 1. Your environment is being prepared, wait about 40 seconds (A splash screen will appear)
 1. VScode IDE will be displayed, a few seconds later you will see Umami demo.
 1. Run in terminal `ddev xdebug on`
