@@ -7,8 +7,9 @@
 /drush/Commands/contrib/
 /vendor/
 /web/core/
-/web/modules/contrib/
-/web/themes/contrib/
+# /web/modules/contrib/
+/web/modules/contrib/**/.ddev
+# /web/themes/contrib/
 /web/profiles/contrib/
 /web/libraries/
 /web/private/scripts/quicksilver
