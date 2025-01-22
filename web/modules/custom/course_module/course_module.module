@@ -1,0 +1,23 @@
+<?php
+
+use \Drupal\Core\Routing\RouteMatchInterface;
+use \Drupal\Core\Url;
+
+/**
+ * Implements hook_help();
+ */
+
+function course_module_help($route_name, RouteMatchInterface $route_match) {
+
+    switch($route_name){
+        // Main module help for the block module.
+        case 'help.page.course_module':
+            $output = '';
+            $output .= '<h2>' . t('About') . '</h2>';
+            $output .= '<p>' . t('Help text displayed for the "Course Module Help Page" with URL to the <a href=":main_help">help main page</a>.', 
+            [':main_help' => Url::fromRoute('help.main')->toString(),]);
+            $output .= '</p>';
+
+            return $output;
+    }
+}
