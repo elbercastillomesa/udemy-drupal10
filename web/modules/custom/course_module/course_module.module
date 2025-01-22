@@ -2,9 +2,11 @@
 
 use \Drupal\Core\Routing\RouteMatchInterface;
 use \Drupal\Core\Url;
+use \Drupal\Core\Entity\EntityInterface;
+use Symfony\Component\Validator\Constraints\Length;
 
 /**
- * Implements hook_help();
+ * Implements hook_help().
  */
 
 function course_module_help($route_name, RouteMatchInterface $route_match) {
@@ -19,5 +21,15 @@ function course_module_help($route_name, RouteMatchInterface $route_match) {
             $output .= '</p>';
 
             return $output;
+    }
+}
+
+/**
+ * Implements hook_ENTITY_TYPE_insert().
+ */
+function course_module_user_insert(EntityInterface $entity){
+
+    if (strlen($entity->label()) > 32 ) {
+        return \Drupal::messenger()->addError('The Username is too long.');
     }
 }
