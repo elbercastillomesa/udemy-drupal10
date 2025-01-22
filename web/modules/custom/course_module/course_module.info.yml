@@ -1,0 +1,8 @@
+name: Udemy Course Module
+type: module
+core_version_requirement: ^9 || ^10
+description: 'Udemy module to brush up Drupal 10 novelties'
+version: 1.0.0
+package: Udemy
+dependencies:
+  - "drupal:node"
