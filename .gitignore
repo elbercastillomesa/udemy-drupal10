@@ -191,6 +191,10 @@ circleci/database/*
 !/web/sites/*/settings.php
 !/web/sites/*/services.yml
 
+# Include Drupal Configuration folder
+!web/sites/default/files/sync/
+!/web/sites/default/files/sync/
+
 # Ignore local and generated settings files
 /web/sites/*/settings.local.php
 /web/sites/*/settings.build.php
